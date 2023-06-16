@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
-const FormComponent = ({ content, error, loading, handleChange, handlePreview, handlePredict }) => {
+const FormComponent = ({ content, error, loading, flag, handleChange, handlePreview, handlePredict }) => {
   return (
     <Form>
       <Form.Group>
@@ -31,7 +31,7 @@ const FormComponent = ({ content, error, loading, handleChange, handlePreview, h
         <Button
           type="submit"
           variant="success"
-          disabled={loading}
+          disabled={flag}
           onClick={!loading ? handlePredict : null}
           data-testid="predict-button"
         >

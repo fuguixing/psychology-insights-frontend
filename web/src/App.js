@@ -21,6 +21,8 @@ const App = () => {
   const [error, setError] = useState('');
   // State for the loading state
   const [loading, setLoading] = useState(false);
+  // State for the buttion state
+  const [flag, setFlag] = useState(true);
 
   const handleChange = (e) => {
     const text = e.target.value;
@@ -80,6 +82,7 @@ const App = () => {
           content={content}
           error={error}
           loading={loading}
+          flag={flag}
           handleChange={handleChange}
           handlePreview={handlePreview}
           handlePredict={handlePredict}
