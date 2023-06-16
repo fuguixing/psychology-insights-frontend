@@ -22,7 +22,7 @@ const App = () => {
   // State for the loading state
   const [loading, setLoading] = useState(false);
   // State for the buttion state
-  const [flag, setFlag] = useState(true);
+  const [flag] = useState(true);
 
   const handleChange = (e) => {
     const text = e.target.value;
