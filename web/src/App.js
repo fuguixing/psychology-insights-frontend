@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Row from 'react-bootstrap/Row';
+import { FaGithub } from 'react-icons/fa';
 
 import FormComponent from './components/FormComponent';
 import ProgressBarComponent from './components/ProgressBarComponent';
@@ -21,8 +22,8 @@ const App = () => {
   const [error, setError] = useState('');
   // State for the loading state
   const [loading, setLoading] = useState(false);
-  // State for the buttion state
-  const [flag] = useState(true);
+  // State for the button state
+  const [flag] = useState(false);
 
   const handleChange = (e) => {
     const text = e.target.value;
@@ -75,6 +76,27 @@ const App = () => {
     <ContainerComponent>
       <div>
         <h2 className="title">Psychology Insights</h2>
+        <p>
+          This project is based on cloud technologies and utilizes the following technologies:
+          React for the frontend,
+          Azure Synapse for data integration,
+          Snowflake for data warehousing, and
+          Azure Functions for serverless computing.
+        </p>
+        <p>
+          GitHub Repository: psychology-insights-frontend
+          <a href="https://github.com/fuguixing/psychology-insights-frontend" target="_blank" rel="noopener noreferrer">
+            <FaGithub size={20} />
+          </a>
+          psychology-insights-snowflake-training
+          <a href="https://github.com/fuguixing/psychology-insights-snowflake-training" target="_blank" rel="noopener noreferrer">
+            <FaGithub size={20} />
+          </a>
+          psychology-insights-synapse-training
+          <a href="https://github.com/fuguixing/psychology-insights-synapse-training" target="_blank" rel="noopener noreferrer">
+            <FaGithub size={20} />
+          </a>
+        </p>
       </div>
       <GuideComponent />
       <div className="content">
