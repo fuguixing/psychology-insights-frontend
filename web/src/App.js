@@ -100,6 +100,10 @@ const App = () => {
           <a href="https://github.com/fuguixing/psychology-insights-ksql-infra" target="_blank" rel="noopener noreferrer">
             <FaGithub size={20} />
           </a>
+          psychology-insights-stream-joiner
+          <a href="https://github.com/fuguixing/psychology-insights-stream-joiner" target="_blank" rel="noopener noreferrer">
+            <FaGithub size={20} />
+          </a>
         </p>
       </div>
       <GuideComponent />
