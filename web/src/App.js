@@ -23,7 +23,7 @@ const App = () => {
   // State for the loading state
   const [loading, setLoading] = useState(false);
   // State for the button state
-  const [flag] = useState(false);
+  const [flag] = useState(true);
 
   const handleChange = (e) => {
     const text = e.target.value;
@@ -94,6 +94,10 @@ const App = () => {
           </a>
           psychology-insights-synapse-training
           <a href="https://github.com/fuguixing/psychology-insights-synapse-training" target="_blank" rel="noopener noreferrer">
+            <FaGithub size={20} />
+          </a>
+          psychology-insights-ksql-infra
+          <a href="https://github.com/fuguixing/psychology-insights-ksql-infra" target="_blank" rel="noopener noreferrer">
             <FaGithub size={20} />
           </a>
         </p>
