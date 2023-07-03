@@ -82,6 +82,8 @@ const App = () => {
           Azure Synapse for data integration,
           Snowflake for data warehousing, and
           Azure Functions for serverless computing.
+          KSQL for stream-joiner.
+          Implemented data transformation base on aws athena, glue, emr, redshift, dbt.
         </p>
         <p>
           GitHub Repository: psychology-insights-frontend
@@ -102,6 +104,18 @@ const App = () => {
           </a>
           psychology-insights-stream-joiner
           <a href="https://github.com/fuguixing/psychology-insights-stream-joiner" target="_blank" rel="noopener noreferrer">
+            <FaGithub size={20} />
+          </a>
+          psychology-insights-redshift-transform
+          <a href="https://github.com/fuguixing/psychology-insights-redshift-transform" target="_blank" rel="noopener noreferrer">
+            <FaGithub size={20} />
+          </a>
+          psychology-insights-athena-glue-transform
+          <a href="https://github.com/fuguixing/psychology-insights-athena-glue-transform" target="_blank" rel="noopener noreferrer">
+            <FaGithub size={20} />
+          </a>
+          psychology-insights-emr-transform
+          <a href="https://github.com/fuguixing/psychology-insights-emr-transform" target="_blank" rel="noopener noreferrer">
             <FaGithub size={20} />
           </a>
         </p>
