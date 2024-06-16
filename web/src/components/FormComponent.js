@@ -6,7 +6,7 @@ const FormComponent = ({ content, error, loading, flag, handleChange, handlePrev
   return (
     <Form>
       <Form.Group>
-        <Form.Label htmlFor="input">Input Text:</Form.Label>
+        <Form.Label htmlFor="input">Input Text: "I am very sad" or "I love you!"</Form.Label>
         <Form.Control
           as="textarea"
           rows={5}
@@ -22,7 +22,7 @@ const FormComponent = ({ content, error, loading, flag, handleChange, handlePrev
         <Button
           type="submit"
           variant="success"
-          disabled={loading}
+          disabled={flag}
           onClick={!loading ? handlePreview : null}
           data-testid="preview-button"
         >
@@ -31,7 +31,7 @@ const FormComponent = ({ content, error, loading, flag, handleChange, handlePrev
         <Button
           type="submit"
           variant="success"
-          disabled={flag}
+          disabled={loading}
           onClick={!loading ? handlePredict : null}
           data-testid="predict-button"
         >
