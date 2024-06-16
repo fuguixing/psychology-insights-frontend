@@ -77,11 +77,11 @@ const App = () => {
       <div>
         <h2 className="title">Psychology Insights</h2>
         <p>
-        I developed a cloud-based application that focuses on predicting Big Five personality traits and emotional characteristics. The application utilizes various technologies including React, Python, Azure Function, Azure Synapse, and Snowflake.
+        A cloud-based application was developed that focuses on predicting Big Five personality traits and emotional characteristics. The application utilizes various technologies including React, Python, Azure Function, Azure Synapse, and Snowflake.
 
-        For the prediction models, Snowflake was used for training the emotion model, while Azure Synapse was utilized for training the Big Five personality model. Stream join functionality was implemented using KSQL, allowing for efficient data integration. To handle data transformation tasks, I incorporated dbt for its powerful capabilities. Additionally, AWS services such as Athena, Glue, EMR, and Redshift were leveraged to enhance the overall data processing and analysis pipeline.
+        For the prediction models, Snowflake was used for training the emotion model, while Azure Synapse was utilized for training the Big Five personality model. Stream join functionality was implemented using KSQL, allowing for efficient data integration. To handle data transformation tasks, dbt was incorporated for its powerful capabilities. Additionally, AWS services such as Athena, Glue, EMR, and Redshift were leveraged to enhance the overall data processing and analysis pipeline.
 
-        By combining these technologies and services, I was able to create a robust and scalable application that offers accurate predictions for Big Five personality traits and emotional characteristics.
+        By combining these technologies and services, a robust and scalable application was created that offers accurate predictions for Big Five personality traits and emotional characteristics.
         </p>
         <p>
           GitHub Repository: psychology-insights-frontend
